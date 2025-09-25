@@ -614,11 +614,14 @@ img{
     display: flex;
 }
 
+.button_modal_close:hover,
+.button_modal_close:focus{
+    background-color: #404bbf;
+    border: none;
+}
 
 .button_modal_close:hover .modal_close,
 .button_modal_close:focus .modal_close{
-    background-color: #404bbf; 
-    border: none;
     fill: #ffffff
 }
 
